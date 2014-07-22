@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WR MPlayer</string>
+    <string name="song_list_label">Songs List</string>
+    <string name="song_info">Song Info</string>
+    <string name="artist_info">Artist Info</string>
+    <string name="prev_bt_cd">Previous Button</string>
+    <string name="next_bt_cd">Next Button</string>
+    <string name="play_bt_cd">Play Button</string>
+    <string name="exit">Exit</string>
+
+</resources>
