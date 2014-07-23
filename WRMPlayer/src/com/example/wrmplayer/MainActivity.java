@@ -285,12 +285,11 @@ public class MainActivity extends Activity implements OnCompletionListener,
 			long currentDuration = musicSrv.getPlayer().getCurrentPosition();
 
 			// Displaying Total Duration time
-			songTotalDurationLabel.setText("Total: "
-					+ utils.milliSecondsToTimer(totalDuration));
+			songCurrentDurationLabel.setText("" + utils.milliSecondsToTimer(totalDuration));
 			//Log.d("TOTAL DURATION", "" + totalDuration);
 			
 			// Displaying time completed playing
-			songCurrentDurationLabel.setText(""
+			songTotalDurationLabel.setText(""
 					+ utils.milliSecondsToTimer(currentDuration));
 			//Log.d("CURRENT DURATION", "" + currentDuration);
 			

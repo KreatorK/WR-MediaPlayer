@@ -151,7 +151,7 @@
         android:thumb="@drawable/seek_handler" />
 
     <TextView
-        android:id="@+id/songTotalDurationLabel"
+        android:id="@+id/songCurrentDurationLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@id/songProgressBar"
@@ -159,11 +159,10 @@
         android:gravity="top"
         android:textColor="#04b3d2"
         android:textSize="12sp"
-        android:textStyle="bold"
-        android:text="current" />
+        android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/songCurrentDurationLabel"
+        android:id="@+id/songTotalDurationLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@id/songProgressBar"
@@ -171,7 +170,6 @@
         android:gravity="top"
         android:textColor="#04b3d2"
         android:textSize="12sp"
-        android:textStyle="bold"
-        android:text="total" />
+        android:textStyle="bold" />
 
 </RelativeLayout>
